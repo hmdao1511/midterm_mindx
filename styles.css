@@ -14,6 +14,11 @@ ul li  {
     list-style-type: none;
 }
 
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
 
 .navbar-header a {
     font-family: "Poppins";
@@ -195,5 +200,35 @@ ul li  {
 #chat-now-pic {
     height: 50px;
     width: 43.75px;
+}
+
+.rectangles {
+    position: absolute;
+    background:#0F0AEE1F; /* color + transparency */
+    z-index: -1; /* send behind everything */
+}
+
+.rec1 {
+    width: 500px;
+    height: 100px;
+    top: 450px;
+    right: 360px;
+    transform: rotate(145deg);
+}
+
+.rec2 {
+    width: 500px;
+    height: 100px;
+    top: 400px;
+    left: 330px;
+    transform: rotate(60deg);
+}
+
+.rec3 {
+    width: 700px;
+    height: 100px;
+    top: 300px;
+    left: 300px;
+    transform: rotate(130deg);
 }
 
